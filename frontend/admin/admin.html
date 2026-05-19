@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <h1>Panel Administrador</h1>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Productos</h3>
+            <p>25</p>
+        </div>
+
+        <div class="card">
+            <h3>Pedidos</h3>
+            <p>12</p>
+        </div>
+
+        <div class="card">
+            <h3>Usuarios</h3>
+            <p>8</p>
+        </div>
+
+    </div>
+
+    <div class="menu">
+
+        <button onclick="mostrarProductos()">
+            Productos
+        </button>
+
+        <button onclick="mostrarPedidos()">
+            Pedidos
+        </button>
+
+    </div>
+
+    <div id="contenido"></div>
+
+    <script src="admin.js"></script>
+
+</body>
+
+</html>
